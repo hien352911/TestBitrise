@@ -14,7 +14,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        AF.request("https://www.google.com/").responseJSON { (response) in
+            print(response.request?.url)
+        }
     }
 
 
