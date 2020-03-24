@@ -13,7 +13,23 @@
 		8B08166B2428BE0F006E098F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0816692428BE0F006E098F /* Main.storyboard */; };
 		8B08166D2428BE11006E098F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B08166C2428BE11006E098F /* Assets.xcassets */; };
 		8B0816702428BE11006E098F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B08166E2428BE11006E098F /* LaunchScreen.storyboard */; };
+		8B9002BF2429AD0E00D3AFF8 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9002BB2429A1F400D3AFF8 /* Alamofire.framework */; };
+		8B9002C02429AD0E00D3AFF8 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9002BB2429A1F400D3AFF8 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8B9002C12429AD0E00D3AFF8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8B9002C02429AD0E00D3AFF8 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8B0816602428BE0F006E098F /* TestBitrise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBitrise.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B9002BF2429AD0E00D3AFF8 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +105,7 @@
 				8B08165D2428BE0F006E098F /* Frameworks */,
 				8B08165E2428BE0F006E098F /* Resources */,
 				8B9002B92429A18500D3AFF8 /* Carthage */,
+				8B9002C12429AD0E00D3AFF8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
